@@ -1602,7 +1602,8 @@
             var line_style = UTIL.cloneObj( this.connStyle.style );
 
             delete line_style['arrow-start'];
-            delete line_style['arrow-end'];
+            //delete line_style['arrow-end'];
+            line_style['arrow-end'] = this.nodeType;
 
             this.lineThroughMe.attr( line_style );
 
