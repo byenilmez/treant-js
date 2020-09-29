@@ -1351,6 +1351,8 @@
                 (nodeStructure.HTMLclass ? (' ' + nodeStructure.HTMLclass) : '');       // + specific node class
 
             this.nodeHTMLid = nodeStructure.HTMLid;
+            
+            this.nodeType = nodeStructure.type;
 
             this.children = [];
 
